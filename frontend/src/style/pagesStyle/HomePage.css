@@ -1,0 +1,89 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Alinha logo e navegação */
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd; /* Linha divisória */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px; /* Espaçamento entre itens da navegação */
+  }
+  
+  /* CentralSection.css */
+  .central-section {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 30px; /* Espaçamento entre os botões */
+    padding: 50px 0; /* Espaçamento interno */
+  }
+  
+  button {
+    padding: 15px 30px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cursor de mão para botões */
+  }
+  
+  button:hover {
+    background-color: var(--primary); /* Cor ao passar o mouse */
+  }
+  
+  /* Footer.css */
+  .footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center; /* Centraliza os links no rodapé */
+    gap: 10px;
+  }
+  
+  /* HomePage.css */
+  .homepage {
+    display: flex;
+    flex-direction: column; /* Organiza o layout de cima para baixo */
+    height: 100vh; /* Altura total da tela */
+  }
+  
+  .homepage-content {
+    flex: 1; /* O conteúdo principal preenche o espaço restante */
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  nav a {
+    margin-left: 10px;
+  }
+  nav button {
+    background: #fff;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 1em;
+  }
